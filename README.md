@@ -8,6 +8,9 @@ This project is an update for a class project I did back in college ([original c
 <p align="center">
   <img src="Screenshots/homeScreen.PNG" alt="Home screen" width="375" height="812">
   <img src="Screenshots/emptyTripSelectionView.PNG" alt="Empty trip selection view" width="375" height="812">
-  <img src="Screenshots/TripSelectionView.PNG" alt="Trip selection view with New York to Los Angeles trip" width="375" height="812">
   <img src="Screenshots/airportSelectionView.PNG" alt="Route selection view" width="375" height="812">
+  <img src="Screenshots/TripSelectionView.PNG" alt="Trip selection view with New York to Los Angeles trip" width="375" height="812">
+  <img src="Screenshots/searchResult.PNG" alt="Results of JFK-LAX trip search" width="375" height="812">
+  <img src="Screenshots/flightTrackingSearchView.PNG" alt="Flight tracking search view" width="375" height="812">
+  <img src="Screenshots/flightTrackDetailedView.PNG" alt="Detail view for tracked flight AA123" width="375" height="812">
 </p>
