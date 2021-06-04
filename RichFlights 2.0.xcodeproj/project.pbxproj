@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D21A51E8265D44720087D2B2 /* RFTripBPCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21A51E7265D44720087D2B2 /* RFTripBPCollectionViewCell.swift */; };
+		D223882726653BAA003766C7 /* SearchSelectionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D223882626653BAA003766C7 /* SearchSelectionAnimator.swift */; };
+		D223883A266717F2003766C7 /* SkypickerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2238839266717F2003766C7 /* SkypickerViewModel.swift */; };
+		D223884026680155003766C7 /* UIStackViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D223883F26680155003766C7 /* UIStackViewExtension.swift */; };
+		D223884626680C9D003766C7 /* TrackedFlightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D223884526680C9D003766C7 /* TrackedFlightViewController.swift */; };
+		D223884C2668306C003766C7 /* TrackResultDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D223884B2668306C003766C7 /* TrackResultDetailView.swift */; };
+		D22388802669699E003766C7 /* IATACode.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = D223887F2669699E003766C7 /* IATACode.intentdefinition */; settings = {ATTRIBUTES = (codegen, ); }; };
+		D2238885266969A8003766C7 /* IATACode.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = D223887F2669699E003766C7 /* IATACode.intentdefinition */; settings = {ATTRIBUTES = (codegen, ); }; };
 		D2603AB526384F3C00DED047 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2603AB426384F3C00DED047 /* AppDelegate.swift */; };
 		D2603AB726384F3C00DED047 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2603AB626384F3C00DED047 /* SceneDelegate.swift */; };
 		D2603AB926384F3C00DED047 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2603AB826384F3C00DED047 /* ViewController.swift */; };
@@ -15,6 +23,52 @@
 		D2603AC126384F3E00DED047 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2603ABF26384F3E00DED047 /* LaunchScreen.storyboard */; };
 		D2603ACC26384F3F00DED047 /* RichFlights_2_0Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2603ACB26384F3F00DED047 /* RichFlights_2_0Tests.swift */; };
 		D2603AD726384F3F00DED047 /* RichFlights_2_0UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2603AD626384F3F00DED047 /* RichFlights_2_0UITests.swift */; };
+		D2603AEB2638508200DED047 /* SkypickerSearchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2603AE72638508100DED047 /* SkypickerSearchManager.swift */; };
+		D2603AEC2638508200DED047 /* Airport.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2603AE82638508100DED047 /* Airport.swift */; };
+		D2603AED2638508200DED047 /* SkypickerDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2603AE92638508100DED047 /* SkypickerDataModel.swift */; };
+		D2603AEE2638508200DED047 /* AirportsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2603AEA2638508200DED047 /* AirportsData.swift */; };
+		D2603AF3263850A100DED047 /* airports.db in Resources */ = {isa = PBXBuildFile; fileRef = D2603AF2263850A100DED047 /* airports.db */; };
+		D2603AF8263850C200DED047 /* AirportsDatabaseManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2603AF7263850C200DED047 /* AirportsDatabaseManger.swift */; };
+		D2603B01263851C100DED047 /* Trip.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2603B00263851C100DED047 /* Trip.swift */; };
+		D2DD67EB263AE4EC006658FC /* TrackedFlight.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DD67EA263AE4EC006658FC /* TrackedFlight.swift */; };
+		D2DD67F0263AE938006658FC /* AviationStackDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DD67EF263AE938006658FC /* AviationStackDataModel.swift */; };
+		D2DD67F5263AEF47006658FC /* AviationStackManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DD67F4263AEF47006658FC /* AviationStackManager.swift */; };
+		D2DD6800263B6F56006658FC /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2DD67FF263B6F56006658FC /* WidgetKit.framework */; };
+		D2DD6802263B6F56006658FC /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2DD6801263B6F56006658FC /* SwiftUI.framework */; };
+		D2DD6805263B6F56006658FC /* RichFlightsWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DD6804263B6F56006658FC /* RichFlightsWidget.swift */; };
+		D2DD6808263B6F59006658FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2DD6807263B6F59006658FC /* Assets.xcassets */; };
+		D2DD680A263B6F59006658FC /* RichFlightsWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = D2DD6806263B6F56006658FC /* RichFlightsWidget.intentdefinition */; };
+		D2DD680B263B6F59006658FC /* RichFlightsWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = D2DD6806263B6F56006658FC /* RichFlightsWidget.intentdefinition */; };
+		D2DD680E263B6F59006658FC /* RichFlightsWidgetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D2DD67FD263B6F56006658FC /* RichFlightsWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D2DD6817263B7253006658FC /* AviationStackDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DD67EF263AE938006658FC /* AviationStackDataModel.swift */; };
+		D2DD681C263B725A006658FC /* AviationStackManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DD67F4263AEF47006658FC /* AviationStackManager.swift */; };
+		D2DD6822263B7D8B006658FC /* TrackedFlightStatusModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DD6821263B7D8B006658FC /* TrackedFlightStatusModel.swift */; };
+		D2DD6827263B8076006658FC /* TrackedFlightStatusModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DD6821263B7D8B006658FC /* TrackedFlightStatusModel.swift */; };
+		D2DD682C263B824F006658FC /* TrackedFlight.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DD67EA263AE4EC006658FC /* TrackedFlight.swift */; };
+		D2DD6832263B89E8006658FC /* FlightStatusSmallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DD6831263B89E8006658FC /* FlightStatusSmallView.swift */; };
+		D2DD6838263B89FE006658FC /* FlightStatusMediumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DD6837263B89FE006658FC /* FlightStatusMediumView.swift */; };
+		D2DD683D263B8AAB006658FC /* FlightStatusSmallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DD6831263B89E8006658FC /* FlightStatusSmallView.swift */; };
+		D2DD6842263B8AB3006658FC /* FlightStatusMediumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DD6837263B89FE006658FC /* FlightStatusMediumView.swift */; };
+		D2DD68552642F497006658FC /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DD68542642F497006658FC /* HomeView.swift */; };
+		D2DD685B26435E76006658FC /* RFLoadingAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DD685A26435E76006658FC /* RFLoadingAnimationView.swift */; };
+		D2DD6886264AB89F006658FC /* TrackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DD6885264AB89F006658FC /* TrackViewController.swift */; };
+		D2DD688C264AB8EA006658FC /* TrackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DD688B264AB8EA006658FC /* TrackView.swift */; };
+		D2DD6895264ABBA5006658FC /* UITextFieldExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DD6894264ABBA5006658FC /* UITextFieldExtension.swift */; };
+		D2DD689B264C06A7006658FC /* TripSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DD689A264C06A7006658FC /* TripSearchViewController.swift */; };
+		D2DD68A1264C091E006658FC /* TripSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DD68A0264C091E006658FC /* TripSearchView.swift */; };
+		D2DD68A7264C0BDB006658FC /* RFAirportPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DD68A6264C0BDB006658FC /* RFAirportPickerView.swift */; };
+		D2DD68AD264C542A006658FC /* RFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DD68AC264C542A006658FC /* RFButton.swift */; };
+		D2DD68B3264C59AC006658FC /* RFDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DD68B2264C59AC006658FC /* RFDatePicker.swift */; };
+		D2DD68BD264D5150006658FC /* AirportSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DD68BC264D5150006658FC /* AirportSelectionViewController.swift */; };
+		D2DD68C3264D5199006658FC /* AirportSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DD68C2264D5199006658FC /* AirportSelectionView.swift */; };
+		D2DD68D9264D5F1E006658FC /* RFAirportResultTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DD68D8264D5F1D006658FC /* RFAirportResultTableViewCell.swift */; };
+		D2DD68DF264D630E006658FC /* RFAirportResultHeaderViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DD68DE264D630E006658FC /* RFAirportResultHeaderViewCell.swift */; };
+		D2DD68E5264D64D5006658FC /* TripResultDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DD68E4264D64D5006658FC /* TripResultDataSource.swift */; };
+		D2DD69092653FE7C006658FC /* AirportSelectionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DD69082653FE7B006658FC /* AirportSelectionDelegate.swift */; };
+		D2DD690F26554C60006658FC /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DD690E26554C60006658FC /* DateExtension.swift */; };
+		D2DD691526554DE3006658FC /* TripResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DD691426554DE3006658FC /* TripResultsViewController.swift */; };
+		D2DD691B26554E9F006658FC /* TripResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DD691A26554E9F006658FC /* TripResultsView.swift */; };
+		D2DD692126555187006658FC /* RFTripResultCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DD692026555187006658FC /* RFTripResultCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,9 +86,37 @@
 			remoteGlobalIDString = D2603AB026384F3C00DED047;
 			remoteInfo = "RichFlights 2.0";
 		};
+		D2DD680C263B6F59006658FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2603AA926384F3B00DED047 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2DD67FC263B6F56006658FC;
+			remoteInfo = RichFlightsWidgetExtension;
+		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		D2DD6812263B6F59006658FC /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				D2DD680E263B6F59006658FC /* RichFlightsWidgetExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		D21A51E7265D44720087D2B2 /* RFTripBPCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RFTripBPCollectionViewCell.swift; sourceTree = "<group>"; };
+		D223882626653BAA003766C7 /* SearchSelectionAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchSelectionAnimator.swift; sourceTree = "<group>"; };
+		D2238839266717F2003766C7 /* SkypickerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkypickerViewModel.swift; sourceTree = "<group>"; };
+		D223883F26680155003766C7 /* UIStackViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIStackViewExtension.swift; sourceTree = "<group>"; };
+		D223884526680C9D003766C7 /* TrackedFlightViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackedFlightViewController.swift; sourceTree = "<group>"; };
+		D223884B2668306C003766C7 /* TrackResultDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackResultDetailView.swift; sourceTree = "<group>"; };
+		D223887F2669699E003766C7 /* IATACode.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = IATACode.intentdefinition; sourceTree = "<group>"; };
 		D2603AB126384F3C00DED047 /* RichFlights 2.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RichFlights 2.0.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2603AB426384F3C00DED047 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D2603AB626384F3C00DED047 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +131,46 @@
 		D2603AD226384F3F00DED047 /* RichFlights 2.0UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RichFlights 2.0UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2603AD626384F3F00DED047 /* RichFlights_2_0UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RichFlights_2_0UITests.swift; sourceTree = "<group>"; };
 		D2603AD826384F3F00DED047 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2603AE72638508100DED047 /* SkypickerSearchManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SkypickerSearchManager.swift; sourceTree = "<group>"; };
+		D2603AE82638508100DED047 /* Airport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Airport.swift; sourceTree = "<group>"; };
+		D2603AE92638508100DED047 /* SkypickerDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SkypickerDataModel.swift; sourceTree = "<group>"; };
+		D2603AEA2638508200DED047 /* AirportsData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AirportsData.swift; sourceTree = "<group>"; };
+		D2603AF2263850A100DED047 /* airports.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = airports.db; sourceTree = "<group>"; };
+		D2603AF7263850C200DED047 /* AirportsDatabaseManger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AirportsDatabaseManger.swift; sourceTree = "<group>"; };
+		D2603B00263851C100DED047 /* Trip.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Trip.swift; sourceTree = "<group>"; };
+		D2DD67EA263AE4EC006658FC /* TrackedFlight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackedFlight.swift; sourceTree = "<group>"; };
+		D2DD67EF263AE938006658FC /* AviationStackDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AviationStackDataModel.swift; sourceTree = "<group>"; };
+		D2DD67F4263AEF47006658FC /* AviationStackManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AviationStackManager.swift; sourceTree = "<group>"; };
+		D2DD67FD263B6F56006658FC /* RichFlightsWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = RichFlightsWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2DD67FF263B6F56006658FC /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		D2DD6801263B6F56006658FC /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		D2DD6804263B6F56006658FC /* RichFlightsWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RichFlightsWidget.swift; sourceTree = "<group>"; };
+		D2DD6806263B6F56006658FC /* RichFlightsWidget.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = RichFlightsWidget.intentdefinition; sourceTree = "<group>"; };
+		D2DD6807263B6F59006658FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D2DD6809263B6F59006658FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2DD6821263B7D8B006658FC /* TrackedFlightStatusModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackedFlightStatusModel.swift; sourceTree = "<group>"; };
+		D2DD6831263B89E8006658FC /* FlightStatusSmallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightStatusSmallView.swift; sourceTree = "<group>"; };
+		D2DD6837263B89FE006658FC /* FlightStatusMediumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightStatusMediumView.swift; sourceTree = "<group>"; };
+		D2DD68542642F497006658FC /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		D2DD685A26435E76006658FC /* RFLoadingAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RFLoadingAnimationView.swift; sourceTree = "<group>"; };
+		D2DD6885264AB89F006658FC /* TrackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackViewController.swift; sourceTree = "<group>"; };
+		D2DD688B264AB8EA006658FC /* TrackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackView.swift; sourceTree = "<group>"; };
+		D2DD6894264ABBA5006658FC /* UITextFieldExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextFieldExtension.swift; sourceTree = "<group>"; };
+		D2DD689A264C06A7006658FC /* TripSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripSearchViewController.swift; sourceTree = "<group>"; };
+		D2DD68A0264C091E006658FC /* TripSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripSearchView.swift; sourceTree = "<group>"; };
+		D2DD68A6264C0BDB006658FC /* RFAirportPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RFAirportPickerView.swift; sourceTree = "<group>"; };
+		D2DD68AC264C542A006658FC /* RFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RFButton.swift; sourceTree = "<group>"; };
+		D2DD68B2264C59AC006658FC /* RFDatePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RFDatePicker.swift; sourceTree = "<group>"; };
+		D2DD68BC264D5150006658FC /* AirportSelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirportSelectionViewController.swift; sourceTree = "<group>"; };
+		D2DD68C2264D5199006658FC /* AirportSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirportSelectionView.swift; sourceTree = "<group>"; };
+		D2DD68D8264D5F1D006658FC /* RFAirportResultTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RFAirportResultTableViewCell.swift; sourceTree = "<group>"; };
+		D2DD68DE264D630E006658FC /* RFAirportResultHeaderViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RFAirportResultHeaderViewCell.swift; sourceTree = "<group>"; };
+		D2DD68E4264D64D5006658FC /* TripResultDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripResultDataSource.swift; sourceTree = "<group>"; };
+		D2DD69082653FE7B006658FC /* AirportSelectionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirportSelectionDelegate.swift; sourceTree = "<group>"; };
+		D2DD690E26554C60006658FC /* DateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
+		D2DD691426554DE3006658FC /* TripResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripResultsViewController.swift; sourceTree = "<group>"; };
+		D2DD691A26554E9F006658FC /* TripResultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripResultsView.swift; sourceTree = "<group>"; };
+		D2DD692026555187006658FC /* RFTripResultCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RFTripResultCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +195,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D2DD67FA263B6F56006658FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2DD6802263B6F56006658FC /* SwiftUI.framework in Frameworks */,
+				D2DD6800263B6F56006658FC /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -82,6 +213,8 @@
 				D2603AB326384F3C00DED047 /* RichFlights 2.0 */,
 				D2603ACA26384F3F00DED047 /* RichFlights 2.0Tests */,
 				D2603AD526384F3F00DED047 /* RichFlights 2.0UITests */,
+				D2DD6803263B6F56006658FC /* RichFlightsWidget */,
+				D2DD67FE263B6F56006658FC /* Frameworks */,
 				D2603AB226384F3C00DED047 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -92,6 +225,7 @@
 				D2603AB126384F3C00DED047 /* RichFlights 2.0.app */,
 				D2603AC726384F3F00DED047 /* RichFlights 2.0Tests.xctest */,
 				D2603AD226384F3F00DED047 /* RichFlights 2.0UITests.xctest */,
+				D2DD67FD263B6F56006658FC /* RichFlightsWidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,7 +235,11 @@
 			children = (
 				D2603AB426384F3C00DED047 /* AppDelegate.swift */,
 				D2603AB626384F3C00DED047 /* SceneDelegate.swift */,
-				D2603AB826384F3C00DED047 /* ViewController.swift */,
+				D2603AF2263850A100DED047 /* airports.db */,
+				D2603AFF2638510B00DED047 /* Helper */,
+				D2603AFE263850F600DED047 /* Model */,
+				D2603AFD263850F000DED047 /* View */,
+				D2603AFC263850E500DED047 /* Controller */,
 				D2603ABA26384F3C00DED047 /* Main.storyboard */,
 				D2603ABD26384F3E00DED047 /* Assets.xcassets */,
 				D2603ABF26384F3E00DED047 /* LaunchScreen.storyboard */,
@@ -128,6 +266,94 @@
 			path = "RichFlights 2.0UITests";
 			sourceTree = "<group>";
 		};
+		D2603AFC263850E500DED047 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D2603AB826384F3C00DED047 /* ViewController.swift */,
+				D2DD6885264AB89F006658FC /* TrackViewController.swift */,
+				D2DD689A264C06A7006658FC /* TripSearchViewController.swift */,
+				D2DD691426554DE3006658FC /* TripResultsViewController.swift */,
+				D2DD68BC264D5150006658FC /* AirportSelectionViewController.swift */,
+				D223884526680C9D003766C7 /* TrackedFlightViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D2603AFD263850F000DED047 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D2DD68542642F497006658FC /* HomeView.swift */,
+				D2DD688B264AB8EA006658FC /* TrackView.swift */,
+				D2DD68A0264C091E006658FC /* TripSearchView.swift */,
+				D2DD691A26554E9F006658FC /* TripResultsView.swift */,
+				D2DD68C2264D5199006658FC /* AirportSelectionView.swift */,
+				D223884B2668306C003766C7 /* TrackResultDetailView.swift */,
+				D2DD692026555187006658FC /* RFTripResultCollectionViewCell.swift */,
+				D21A51E7265D44720087D2B2 /* RFTripBPCollectionViewCell.swift */,
+				D2DD68DE264D630E006658FC /* RFAirportResultHeaderViewCell.swift */,
+				D2DD68D8264D5F1D006658FC /* RFAirportResultTableViewCell.swift */,
+				D2DD68A6264C0BDB006658FC /* RFAirportPickerView.swift */,
+				D2DD685A26435E76006658FC /* RFLoadingAnimationView.swift */,
+				D2DD68AC264C542A006658FC /* RFButton.swift */,
+				D2DD68B2264C59AC006658FC /* RFDatePicker.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D2603AFE263850F600DED047 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D2603AE82638508100DED047 /* Airport.swift */,
+				D2603AF7263850C200DED047 /* AirportsDatabaseManger.swift */,
+				D2603AEA2638508200DED047 /* AirportsData.swift */,
+				D2603AE92638508100DED047 /* SkypickerDataModel.swift */,
+				D2238839266717F2003766C7 /* SkypickerViewModel.swift */,
+				D2603AE72638508100DED047 /* SkypickerSearchManager.swift */,
+				D2603B00263851C100DED047 /* Trip.swift */,
+				D2DD67EA263AE4EC006658FC /* TrackedFlight.swift */,
+				D2DD67EF263AE938006658FC /* AviationStackDataModel.swift */,
+				D2DD67F4263AEF47006658FC /* AviationStackManager.swift */,
+				D2DD6821263B7D8B006658FC /* TrackedFlightStatusModel.swift */,
+				D2DD68E4264D64D5006658FC /* TripResultDataSource.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D2603AFF2638510B00DED047 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				D2DD6894264ABBA5006658FC /* UITextFieldExtension.swift */,
+				D2DD690E26554C60006658FC /* DateExtension.swift */,
+				D2DD69082653FE7B006658FC /* AirportSelectionDelegate.swift */,
+				D223882626653BAA003766C7 /* SearchSelectionAnimator.swift */,
+				D223883F26680155003766C7 /* UIStackViewExtension.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		D2DD67FE263B6F56006658FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D2DD67FF263B6F56006658FC /* WidgetKit.framework */,
+				D2DD6801263B6F56006658FC /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D2DD6803263B6F56006658FC /* RichFlightsWidget */ = {
+			isa = PBXGroup;
+			children = (
+				D2DD6804263B6F56006658FC /* RichFlightsWidget.swift */,
+				D2DD6831263B89E8006658FC /* FlightStatusSmallView.swift */,
+				D2DD6837263B89FE006658FC /* FlightStatusMediumView.swift */,
+				D2DD6806263B6F56006658FC /* RichFlightsWidget.intentdefinition */,
+				D223887F2669699E003766C7 /* IATACode.intentdefinition */,
+				D2DD6807263B6F59006658FC /* Assets.xcassets */,
+				D2DD6809263B6F59006658FC /* Info.plist */,
+			);
+			path = RichFlightsWidget;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,10 +364,12 @@
 				D2603AAD26384F3C00DED047 /* Sources */,
 				D2603AAE26384F3C00DED047 /* Frameworks */,
 				D2603AAF26384F3C00DED047 /* Resources */,
+				D2DD6812263B6F59006658FC /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				D2DD680D263B6F59006658FC /* PBXTargetDependency */,
 			);
 			name = "RichFlights 2.0";
 			productName = "RichFlights 2.0";
@@ -184,6 +412,23 @@
 			productReference = D2603AD226384F3F00DED047 /* RichFlights 2.0UITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		D2DD67FC263B6F56006658FC /* RichFlightsWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2DD680F263B6F59006658FC /* Build configuration list for PBXNativeTarget "RichFlightsWidgetExtension" */;
+			buildPhases = (
+				D2DD67F9263B6F56006658FC /* Sources */,
+				D2DD67FA263B6F56006658FC /* Frameworks */,
+				D2DD67FB263B6F56006658FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RichFlightsWidgetExtension;
+			productName = RichFlightsWidgetExtension;
+			productReference = D2DD67FD263B6F56006658FC /* RichFlightsWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -204,6 +449,9 @@
 						CreatedOnToolsVersion = 12.3;
 						TestTargetID = D2603AB026384F3C00DED047;
 					};
+					D2DD67FC263B6F56006658FC = {
+						CreatedOnToolsVersion = 12.3;
+					};
 				};
 			};
 			buildConfigurationList = D2603AAC26384F3B00DED047 /* Build configuration list for PBXProject "RichFlights 2.0" */;
@@ -222,6 +470,7 @@
 				D2603AB026384F3C00DED047 /* RichFlights 2.0 */,
 				D2603AC626384F3F00DED047 /* RichFlights 2.0Tests */,
 				D2603AD126384F3F00DED047 /* RichFlights 2.0UITests */,
+				D2DD67FC263B6F56006658FC /* RichFlightsWidgetExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -234,6 +483,7 @@
 				D2603AC126384F3E00DED047 /* LaunchScreen.storyboard in Resources */,
 				D2603ABE26384F3E00DED047 /* Assets.xcassets in Resources */,
 				D2603ABC26384F3C00DED047 /* Main.storyboard in Resources */,
+				D2603AF3263850A100DED047 /* airports.db in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +501,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D2DD67FB263B6F56006658FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2DD6808263B6F59006658FC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -258,9 +516,49 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2DD68E5264D64D5006658FC /* TripResultDataSource.swift in Sources */,
+				D223884026680155003766C7 /* UIStackViewExtension.swift in Sources */,
+				D2DD6822263B7D8B006658FC /* TrackedFlightStatusModel.swift in Sources */,
+				D2603AEE2638508200DED047 /* AirportsData.swift in Sources */,
+				D2DD688C264AB8EA006658FC /* TrackView.swift in Sources */,
+				D2DD680B263B6F59006658FC /* RichFlightsWidget.intentdefinition in Sources */,
+				D2DD68A7264C0BDB006658FC /* RFAirportPickerView.swift in Sources */,
+				D2DD67F5263AEF47006658FC /* AviationStackManager.swift in Sources */,
+				D2603AEC2638508200DED047 /* Airport.swift in Sources */,
+				D2DD68552642F497006658FC /* HomeView.swift in Sources */,
+				D2DD68DF264D630E006658FC /* RFAirportResultHeaderViewCell.swift in Sources */,
+				D2DD685B26435E76006658FC /* RFLoadingAnimationView.swift in Sources */,
+				D223884C2668306C003766C7 /* TrackResultDetailView.swift in Sources */,
+				D2DD68D9264D5F1E006658FC /* RFAirportResultTableViewCell.swift in Sources */,
+				D2DD692126555187006658FC /* RFTripResultCollectionViewCell.swift in Sources */,
+				D2DD6838263B89FE006658FC /* FlightStatusMediumView.swift in Sources */,
+				D2DD689B264C06A7006658FC /* TripSearchViewController.swift in Sources */,
+				D2603AF8263850C200DED047 /* AirportsDatabaseManger.swift in Sources */,
+				D2DD68AD264C542A006658FC /* RFButton.swift in Sources */,
+				D21A51E8265D44720087D2B2 /* RFTripBPCollectionViewCell.swift in Sources */,
+				D2603B01263851C100DED047 /* Trip.swift in Sources */,
+				D2DD67F0263AE938006658FC /* AviationStackDataModel.swift in Sources */,
+				D2DD68B3264C59AC006658FC /* RFDatePicker.swift in Sources */,
+				D22388802669699E003766C7 /* IATACode.intentdefinition in Sources */,
+				D2DD6832263B89E8006658FC /* FlightStatusSmallView.swift in Sources */,
+				D2DD67EB263AE4EC006658FC /* TrackedFlight.swift in Sources */,
+				D2603AED2638508200DED047 /* SkypickerDataModel.swift in Sources */,
 				D2603AB926384F3C00DED047 /* ViewController.swift in Sources */,
+				D2DD68A1264C091E006658FC /* TripSearchView.swift in Sources */,
+				D2DD6895264ABBA5006658FC /* UITextFieldExtension.swift in Sources */,
+				D2603AEB2638508200DED047 /* SkypickerSearchManager.swift in Sources */,
+				D2DD68BD264D5150006658FC /* AirportSelectionViewController.swift in Sources */,
+				D223883A266717F2003766C7 /* SkypickerViewModel.swift in Sources */,
+				D2DD69092653FE7C006658FC /* AirportSelectionDelegate.swift in Sources */,
+				D2DD690F26554C60006658FC /* DateExtension.swift in Sources */,
+				D223882726653BAA003766C7 /* SearchSelectionAnimator.swift in Sources */,
 				D2603AB526384F3C00DED047 /* AppDelegate.swift in Sources */,
 				D2603AB726384F3C00DED047 /* SceneDelegate.swift in Sources */,
+				D2DD6886264AB89F006658FC /* TrackViewController.swift in Sources */,
+				D2DD691526554DE3006658FC /* TripResultsViewController.swift in Sources */,
+				D223884626680C9D003766C7 /* TrackedFlightViewController.swift in Sources */,
+				D2DD691B26554E9F006658FC /* TripResultsView.swift in Sources */,
+				D2DD68C3264D5199006658FC /* AirportSelectionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +578,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D2DD67F9263B6F56006658FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2DD680A263B6F59006658FC /* RichFlightsWidget.intentdefinition in Sources */,
+				D2DD681C263B725A006658FC /* AviationStackManager.swift in Sources */,
+				D2DD6817263B7253006658FC /* AviationStackDataModel.swift in Sources */,
+				D2DD6805263B6F56006658FC /* RichFlightsWidget.swift in Sources */,
+				D2DD682C263B824F006658FC /* TrackedFlight.swift in Sources */,
+				D2DD6842263B8AB3006658FC /* FlightStatusMediumView.swift in Sources */,
+				D2238885266969A8003766C7 /* IATACode.intentdefinition in Sources */,
+				D2DD683D263B8AAB006658FC /* FlightStatusSmallView.swift in Sources */,
+				D2DD6827263B8076006658FC /* TrackedFlightStatusModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -292,6 +606,11 @@
 			isa = PBXTargetDependency;
 			target = D2603AB026384F3C00DED047 /* RichFlights 2.0 */;
 			targetProxy = D2603AD326384F3F00DED047 /* PBXContainerItemProxy */;
+		};
+		D2DD680D263B6F59006658FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2DD67FC263B6F56006658FC /* RichFlightsWidgetExtension */;
+			targetProxy = D2DD680C263B6F59006658FC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -434,6 +753,7 @@
 		D2603ADC26384F3F00DED047 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -446,13 +766,14 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.tentech.RichFlights-2-0";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		D2603ADD26384F3F00DED047 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -465,7 +786,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.tentech.RichFlights-2-0";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -553,6 +874,48 @@
 			};
 			name = Release;
 		};
+		D2DD6810263B6F59006658FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3CGXTTVKR2;
+				INFOPLIST_FILE = RichFlightsWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tentech.RichFlights-2-0.RichFlightsWidget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D2DD6811263B6F59006658FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3CGXTTVKR2;
+				INFOPLIST_FILE = RichFlightsWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tentech.RichFlights-2-0.RichFlightsWidget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -588,6 +951,15 @@
 			buildConfigurations = (
 				D2603AE226384F3F00DED047 /* Debug */,
 				D2603AE326384F3F00DED047 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2DD680F263B6F59006658FC /* Build configuration list for PBXNativeTarget "RichFlightsWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2DD6810263B6F59006658FC /* Debug */,
+				D2DD6811263B6F59006658FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
