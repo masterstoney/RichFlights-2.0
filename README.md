@@ -36,7 +36,7 @@ All programming was done in Swift. The user interface was mostly built programma
 The application now enables users to track flights. All the user has to do is enter the IATA flight code and they should be able to get the information about the flight. This functionality is shown in one of the screenshots above. The user can take advantage of Widgets and keep track of the flight progress from their home screen. Due to API limits, widget functionality is turned off for now.
 
 <p align="center">
-  <img src="Screenshots/WidgetConfiguration.PNG" alt="Loading Animation" width="375" height="812">
-  <img src="Screenshots/WidgetSmall.PNG" alt="Loading Animation" width="375" height="812">
+  <img src="Screenshots/WidgetConfiguration.png" alt="Widget configuration screen" width="375" height="812">
+  <img src="Screenshots/WidgetSmall.png" alt="Small widget in action" width="375" height="812">
 </p>
 
